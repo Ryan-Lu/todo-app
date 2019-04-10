@@ -1,0 +1,78 @@
+* {
+    outline: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100px;
+    background: #00334b;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.container input {
+    width: 320px;
+    height: 28px;
+    vertical-align: top;
+    border-radius: 4px;
+    padding: 0 4px;
+}
+
+.container .todo-form button {
+    height: 28px;
+    background: #0e98da;
+    border: 0;
+    border-radius: 2px;
+    width: 70px;
+    color: white;
+}
+.container .todo-form button:hover {
+    background: #01547b;
+
+}
+
+.container .todo-form button:active {
+    background: #003d58;
+}
+
+.task-list {
+    margin-top: 16px;
+}
+.task-list .todo-cell {
+    background: white;
+    margin: 4px 0;
+    border-radius: 4px;
+    line-height: 28px;
+    font-size: 14px;
+    padding-left: 8px;
+}
+.task-list .todo-cell:hover {
+    background: #ddd;
+}
+
+.task-list .actions {
+    padding-right: 12px;
+    float: right;
+}
+.task-list .actions span{
+    margin-left: 4px;
+    font-style: 14px;
+    color: #888
+}
+.task-list .actions span:hover {
+    color: black;
+    cursor: pointer;
+}
