@@ -15,7 +15,12 @@ html {
 
 h1 {
     text-align: center;
-    color: white;
+    color: #ffffff;
+    font-size: 26px;
+    font-weight: normal;
+    letter-spacing: 1.5px;
+    padding-top: 30px;
+    padding-bottom: 10px;
 }
 
 .container {
